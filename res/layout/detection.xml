@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#bfbfbf">
+
+    <ImageView
+        android:id="@+id/fall"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+         android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/fall" />
+
+    <TextView
+        android:id="@+id/indetection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="跌倒检测"
+        android:textSize="20sp" />
+    
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="开始"
+        android:textSize="20sp" />
+    
+
+    <Button
+        android:id="@+id/buttonOut"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="退出"
+        android:textSize="20sp" />
+    
+     <Button
+        android:id="@+id/buttonAlarm"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="报警求救"
+        android:textSize="20sp" />
+    
+
+</LinearLayout>

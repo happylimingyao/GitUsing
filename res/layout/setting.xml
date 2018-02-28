@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#bfbfbf" >
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"       
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="10dip"
+        android:text="紧急联系人设置" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+	
+    <TextView
+        android:id="@+id/gestureNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="10dip"
+        android:layout_gravity="center_horizontal"
+        android:text="" />
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+         >
+
+            
+            
+            
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="90"
+        android:src="@drawable/setting_shift" />
+        
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:hint="输入联系人姓名"
+                android:inputType="textPersonName"
+                android:maxLength="25"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000" >
+
+        <requestFocus />
+    </EditText>
+        
+            
+    </LinearLayout>
+    
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+         >
+
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="90"
+        android:src="@drawable/setting_shift" />
+        
+            <EditText
+                android:id="@+id/telephone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:hint="输入电话号码"
+                android:inputType="textPersonName"
+                android:maxLength="25"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000" >
+
+    </EditText>
+        
+            
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/buttoninsert"
+            android:layout_width="180dp"
+            android:layout_marginTop="10dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="保存联系人" />
+        
+        <Button
+        android:id="@+id/buttoncancel"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dip"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:text="退出" />
+       
+        
+   </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
